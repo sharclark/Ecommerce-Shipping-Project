@@ -43,11 +43,11 @@ Source: https://www.kaggle.com/datasets/prachi13/customer-analytics
     
  - Random Forest Model Train F1 Scores
     - Pre Tune: 1.0
-    - Post Tune: 
+    - Post Tune: 1.0
     
   - Random Forest Model Test F1 Scores
     - Pre Tune: .67
-    - Post Tune: 
+    - Post Tune: .66
   
 I would reccomend using the XGB Tuned Model, when compared to the KNN Model. The F1 Scores are higher. When looking at the confusion matrices between the two models the pre-tuned XGB Model showed great predictions, however those accurate predictions did not transfer over to the test set. 
 
